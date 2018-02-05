@@ -2,7 +2,7 @@
   "name": "react-tesseract-ocr",
   "version": "0.1.0",
   "description": "Tesseract.js for React",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "jest"
   },
@@ -20,5 +20,16 @@
   "bugs": {
     "url": "https://github.com/jeromewu/react-tesseract-ocr/issues"
   },
-  "homepage": "https://github.com/jeromewu/react-tesseract-ocr#readme"
+  "homepage": "https://github.com/jeromewu/react-tesseract-ocr#readme",
+  "dependencies": {
+    "react": "^16.2.0",
+    "tesseract.js": "^1.0.10"
+  },
+  "devDependencies": {
+    "eslint": "^4.17.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.6.1"
+  }
 }
